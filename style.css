@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p,
+li {
+  font-size: 1rem;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px black thick;
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 350px;
+  padding: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.project-title {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.tech-skill {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-wrap: wrap;
+}
