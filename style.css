@@ -1,6 +1,11 @@
 body {
+  background-image: url("images/pawel-czerwinski-prMn9KINLtI-unsplash.jpg");
   font-family: "Roboto", sans-serif;
-  margin: 20px;
+  margin: 20px 100px;
+}
+
+header {
+  color: rgb(106, 203, 241);
 }
 
 h1 {
@@ -14,11 +19,15 @@ h2 {
 }
 
 h3 {
+  color: white;
   font-size: 1.5rem;
+  padding: 5px;
 }
 
 h4 {
+  color: white;
   font-size: 1.2rem;
+  padding: 5px;
 }
 
 p,
@@ -26,32 +35,49 @@ li {
   font-size: 1rem;
 }
 
-img {
-  border-radius: 50%;
-  border: 2px black thick;
+.article-img {
+  border: 2px solid rgb(11, 11, 35);
+  border-radius: 20px;
   text-align: center;
 }
 
-.project {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 350px;
-  padding: 10px;
+.contact-img {
+  margin-left: 10px;
 }
 
-.project-container {
+.about-me {
+  border-radius: 5px;
+  padding: 10px;
+}
+.container {
+  border-radius: 20px;
   display: flex;
   justify-content: space-around;
   align-items: start;
+  flex-wrap: wrap;
 }
 
-.project-title {
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  width: 400px;
+  margin: 5px;
+  padding: 10px;
+}
+
+.card-title {
   font-style: italic;
   font-weight: bold;
 }
 
+.section-background {
+  background-color: #a7c9f6;
+}
+
 .tech-skill {
+  border-radius: 5px;
   display: flex;
   justify-content: space-around;
   align-items: start;

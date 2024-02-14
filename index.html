@@ -19,8 +19,8 @@
     </header>
     <section>
         <h3>About me</h3>
-        <article>
-            <p>After several years of working with software engineers as prodcut owner,
+        <article class="about-me section-background">
+            <p>After several years of working with software engineers as product owner,
                 I've decided to join a bootcamp and become one of them. </br>
                 Love learning new things, experiment with technology I don't know,
                 building things and find different way to solve the same problems.</p>
@@ -28,7 +28,7 @@
     </section>
     <section>
         <h3>Technical Skills</h3>
-        <article class="tech-skill">
+        <article class="tech-skill section-background">
             <ul>
                 <li>Javascript/Typescript</li>
                 <li>Node.js</li>
@@ -66,82 +66,90 @@
         <h3>Portfolio</h3>
         <section>
             <h4>Bootcamp projects</h4>
-            <article class="project-container">
-                <article class="project">
-                    <p class="project-title">TeaCupper</p>
-                    <a href="https://claravilla.github.io/tea-cupper/"><img src="images/teacupper.png"
-                            alt="teaCupper screenshot"></a>
-                    <p>
-                        My version of Frogger</p>
-                       <p> <b>Built with:</b> HTML, CSS and Canvas API</p>
-                        <a href="">Repo</a>
-                    </p>
+            <article class="container section-background">
+                <article class="card-container">
+                    <p class="card-title">TeaCupper</p>
+                    <a href="https://claravilla.github.io/tea-cupper/"><img class="article-img"
+                            src="images/teacupper.png" alt="teaCupper screenshot"></a>
+                    <p>My version of Frogger</p>
+                    <p><b>Built with:</b> HTML, CSS and Canvas API</p>
+                    <a href="https://github.com/claravilla/tea-cupper">Repo</a>
                 </article>
-                <article class="project">
-                    <p class="project-title">NiceBreaker</p>
-                    <a href=""><img alt="nicebreaker screenshot"></a>
-                    <p class="project-capture">
-                        List of unortodox questions to start a conversation.</br></br></p>
-                    <p><b>Built with:</b> Node.js, MongoDB and HandlerBars</br></br></p>
-                    <a href="">Repo</a>
+                <article class="card-container">
+                    <p class="card-title">NiceBreaker</p>
+                    <a href="https://nicebreaker.onrender.com/"><img class="article-img" src="images/nicebreaker.png"
+                            alt="nicebreaker screenshot"></a>
+                    <p>List of unortodox questions to start a conversation.</p>
+                    <p><b>Built with:</b> Node.js, MongoDB and HandlerBars</p>
+                    <a href="https://github.com/claravilla/nicebreaker">Repo</a>
                 </article>
-                <article class="project">
-                    <p class="project-title">AstroList</p>
-                    <a href="https://astro-watchlist.netlify.app"><img alt="astrolist screenshot"></a>
-                    <p class="project-capture">
-                        Browse the Messier catalogue, track the list of objects you see and join the leaders
-                        board.</br></br>
-                        <b>Built with:</b> React, Bootstrap, Node.js and MongoDB</br></br>
-                        <a href="">Repo</a>
-                    </p>
+                <article class="card-container">
+                    <p class="card-title">AstroList</p>
+                    <a href="https://astro-watchlist.netlify.app"><img class="article-img" src="images/astro.png"
+                            alt="astrolist screenshot"></a>
+                    <p> Browse the Messier catalogue, track the list of objects you see and join the leaders
+                        board.</p>
+                    <p><b>Built with:</b> React, Bootstrap, Node.js and MongoDB</p>
+                    <a href="https://github.com/claravilla/astroServer">Repo Server</a><br />
+                    <a href="https://github.com/claravilla/astro-client">Repo Client</a><br />
                 </article>
             </article>
         </section>
         <section>
             <h4>Personal projects</h4>
-            <article class="project-container">
-                <article class="project">
-                    <p class="project-title">My Transport</p>
-                    <a href=""><img alt="transport screenshot"></a>
-                    <p class="project-capture">
-                        Live updates for bus and underground near my house. Integrated with TFL API.</br></br>
-                        <b>Built with:</b> React</br></br>
-                        <a href="">Repo</a>
-                    </p>
+            <article class="container section-background">
+                <article class="card-container">
+                    <p class="card-title">My Transport</p>
+                    <a href=""><img class="article-img" src="images/transports.png" alt="transport screenshot"></a>
+                    <p>Live updates for bus and underground near my house. Integrated with TFL API.</p>
+                    <p><b>Built with:</b> React</p>
+                    <a href="https://github.com/claravilla/transports-client">Repo</a>
                 </article>
-                <article class="project">
-                    <p class="project-title">Moving to-do list</p>
-                    <a href=""><img alt="to do listscreenshot"></a>
-                    <p class="project-capture">
-                        To-do list for my move to Australia. Add/Edit/Remove and categorise tasks.</br>
-                        Password: Tic Toc</br></br>
-                        <b>Built with:</b> React, Node.js and MongoDB</br></br>
-                        <a href="">Repo</a>
-                    </p>
+                <article class="card-container">
+                    <p class="card-title">Moving to-do list</p>
+                    <a href="https://betillalist.netlify.app/"><img class="article-img" src="images/list.png"
+                            alt="to do listscreenshot"></a>
+                    <p> To-do list for my move to Australia. Add/Edit/Remove and categorise tasks.</br>
+                        Password: Tic Toc</p>
+                    <p><b>Built with:</b> React, Node.js and MongoDB</p>
+                    <a href="https://github.com/claravilla/list-server">Repo Server</a><br />
+                    <a href="https://github.com/claravilla/list-client">Repo Client</a>
                 </article>
             </article>
         </section>
     </section>
-    <section>
-        <h3>Sharing with the community</h3>
-        <article class="sharing">
-            <p>Meet up talk</p>
-            <!-- <img> add picture from meet up-->
+    <h3>Sharing with the community</h3>
+    <article class="container section-background">
+        <article class="card-container">
+            <p class="card-title">It's about the journey and the API Destination</p><br />
+            <p>Meet up talk - Aug 2022</p>
+            <a href="https://www.meetup.com/brick-by-brick-building-lego-com/events/287876826/"><img class="article-img"
+                    src="images/meetup.jpg" alt="meet up picture"></a>
         </article>
-        <article class="sharing">
-            <p>Serverless Paris</p>
-            <!-- <img> add picture from serverless and url-->
+        <article class="card-container">
+            <p class="card-title">The Road To Event-Driven Architecture At LEGO.com</p><br />
+            <p>Serverless Day Paris - Jun 2023 - With Sheen Brisals</p>
+            <a href="https://www.youtube.com/watch?v=9wPFZeltGw8&ab_channel=ServerlessDays"><img class="article-img"
+                    src="images/serverless.jpg" alt="serverless day picture"></a>
         </article>
-        <article class="sharing">
-            <p>Article</p>
-            <!-- <img> add picture from medium and url-->
+        <article class="card-container">
+            <p class="card-title">Using API Gateway and AWS Cloudwatch to monitor your HTTPs errors at a granular level
+            </p>
+            <p>Blog article co-written with Javier Mendoza</p>
+            <a
+                href="https://medium.com/@javierenriquemendozagomez/using-api-gateway-and-aws-cloudwatch-to-monitor-your-https-errors-at-a-granular-level-e6c9fcd12270"><img
+                    class="article-img" src="images/blog.png" alt="screenshot of blog"></a>
         </article>
+    </article>
     </section>
     <section>
         <h3>Contacts</h3>
-        <article><a href="">Linkedin</a></article>
-        <!-- add email form -->
+        <article>
+            <a href="https://www.linkedin.com/in/clara-villa-990b9962/"><img class="contact-img"src="images/LI-In-Bug.png"
+                    alt="linkedIn logo"></a>
+            <a href="mailto:claravilla12@proton.me"><img class="contact-img" src="images/icons8-email-64.png"  alt="email logo"></a>
+            <a href="https://github.com/claravilla/"><img class="contact-img" src="images/github-mark-white.png"  alt="github logo"></a>
+        </article>
     </section>
 </body>
-
 </html>
