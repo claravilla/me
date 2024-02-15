@@ -4,6 +4,17 @@ body {
   margin: 20px 100px;
 }
 
+footer {
+  color: white;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
 header {
   color: rgb(106, 203, 241);
 }
